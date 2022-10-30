@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".PackagesActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="329dp"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+        <RadioButton
+            android:id="@+id/idBasic"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:width="400dp"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="@color/material_dynamic_neutral70"
+            android:paddingLeft="20px"
+            android:text="Standard          Rs.2500 per month"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/idPlatinum"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:width="400dp"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="@color/material_dynamic_neutral70"
+            android:paddingLeft="20px"
+            android:text="Platinum         Rs.8000 per 6 months"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/idGold"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:width="400dp"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="@color/material_dynamic_neutral70"
+            android:paddingLeft="20px"
+            android:text="Gold                  Rs.12000 per year"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/idPerTrain"
+        android:layout_width="319dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="232dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/material_dynamic_neutral90"
+        android:text="PersonalTraining" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="148dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="238dp"
+        android:text="(if personal training is selected, an additional fee is added)"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="142dp"
+        android:layout_marginHorizontal="55dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:text="Total Amount:     Rs. "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/idTotal"
+            android:layout_width="136dp"
+            android:layout_height="56dp"
+            android:text="null"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="55dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!--button for editing course-->
+        <Button
+            android:id="@+id/idCalcBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:text="Calculate Total"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:iconTint="@color/black" />
+
+        <Button
+            android:id="@+id/idContinue"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="Continue to payment"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:iconTint="@color/black" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
