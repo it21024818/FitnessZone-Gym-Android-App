@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue_shade_1"
+    android:id="@+id/RLBsheet">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise Name"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/TVexName"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:textSize="15sp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/TVexName"
+        android:layout_margin="4dp"
+        android:src="@mipmap/ic_launcher"
+        android:padding="4dp"
+        android:id="@+id/IVExercise"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Area of Focus"
+        android:id="@+id/TVarea"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/IVExercise"
+        android:layout_below="@id/TVexName"
+        android:padding="3dp"
+        android:layout_margin="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No. of Sets"
+        android:id="@+id/TVsets"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/IVExercise"
+        android:layout_below="@id/TVarea"
+        android:padding="3dp"
+        android:layout_margin="4dp"/>
+
+    <TextView
+        android:id="@+id/TVspecialNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TVsets"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@id/IVExercise"
+        android:padding="3dp"
+        android:text="Special Notes"
+        android:textColor="@color/white" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_below="@id/IVExercise">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="Edit Exercise"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:id="@+id/editExerciseBtn"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
