@@ -1,5 +1,5 @@
 Nowadays people are becoming more and more concerned about their health and fitness. With the advancement of technology and automation of almost everything people 
-tend be less active than they used to be. So, fitness centers or the gymnasiums have become the best places for people living in the urban areas to keep their selves fit and 
+tend to be less active than they used to be. So, fitness centers or the gymnasiums have become the best places for people living in the urban areas to keep their selves fit and 
 healthy. In a world of automation, registrations and other procedures in fitness centers and gymnasiums are still mostly paper based which make the process slow and inefficient. 
 Lack of trainers to guide the clients and having many clients to be guided at once for a single trainer could be cumbersome and tiresome job. Inefficient ways of getting feedback 
 from clients or customers leads to wrong decision making. This is an application that mainly focuses on making working out an easier and a more productive one by guiding and 
